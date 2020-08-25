@@ -14,6 +14,7 @@ The next image shows the pinout for the board.
 ![MKS GEN L Board PINOUT](https://github.com/feiticeir0/Flyingbear_Ghost_v3.1_Marlin_2_Firmware/blob/master/images/mks-gen-l-pinout.jpg)
 
 ** What did they change ? **
+
 Well, because they wired the Y endstop to the X+ pins (on the board), the Y- endstop pin had to be changed for the correct PIN. 
 Has you can see, Y- should be 14, but is 2 . 
 ![Flyingbear Y endstop wired in X+](https://github.com/feiticeir0/Flyingbear_Ghost_v3.1_Marlin_2_Firmware/images/Flyingbear_board.jpg)
