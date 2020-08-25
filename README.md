@@ -17,7 +17,7 @@ The next image shows the pinout for the board.
 
 Well, because they wired the Y endstop to the X+ pins (on the board), the Y- endstop pin had to be changed for the correct PIN. 
 Has you can see, Y- should be 14, but is 2 . 
-![Flyingbear Y endstop wired in X+](https://github.com/feiticeir0/Flyingbear_Ghost_v3.1_Marlin_2_Firmware/images/glyingbear_board.jpg)
+![Flyingbear Y endstop wired in X+](https://github.com/feiticeir0/Flyingbear_Ghost_v3.1_Marlin_2_Firmware/images/flyingbear_board.jpg)
 
 This worked well for Marlin v1 and the Y endstop started working.... But not for Marlin v2 .
 So, I removed the Y endstop wiring from X+ and wired it in Y-, thus, keeping untouched the pins_RAMPS.h file. 
