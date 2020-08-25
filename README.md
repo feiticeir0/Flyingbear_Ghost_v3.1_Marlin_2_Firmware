@@ -29,6 +29,18 @@ Just copy the files configuration.h and configuration\_adv.h to your downloaded 
 
 And compile the firmware for the Arduino MEGA 2560
 
+## changes in the file
+I haven't changed much, except some security features that Flyingbear for some reason had values too low or none at all.
+- Limited temperature in the Nozzle in BANG_MAX
+- PID values for the Nozzle the ones they've set. 
+    - I've tried autotune, but it just went wrong - so I've stick with the default values they have set, because they have worked well all this time
+- PID values for bed are the Marlin stock ones. 
+- THERMAL PROTECTIONS are all enabled
+- EXTRUDE_MINTEMP is set to 150
+
+### TODO
+- I'm waiting for some 2208 stepper drivers to change the default ones.
+- Will calibrate several parameters of the printer and update the configuration files accordingly. 
 
 ## Disclosure
 
