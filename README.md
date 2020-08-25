@@ -47,4 +47,7 @@ I haven't changed much, except some security features that Flyingbear for some r
 This files use the stock configurations for the FlyingBear Ghost 3D v3.1
 They work for me - the Printer is working perfectly fine. 
 Still, USE IT AT YOUR OWN RISK
+I'm no 3d Printer expert and this was the first time I've really played with the Marlin code. I'm learning at the same time i'm discovering and tinkering .
+
+
  
