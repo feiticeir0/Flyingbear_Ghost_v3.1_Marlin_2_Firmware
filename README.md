@@ -11,10 +11,12 @@ This version went well and everything worked.
 Using this old version, I then tried to compile a new version, with mixed success. The major problem was the Y endstop didn't work. 
 After searching, I discover that they also changed the (usual) pin assigment on the board - BOARD_MKS_GEN_L - pins_RAMPS.h was changed.
 The next image shows the pinout for the board. 
+![MKS GEN L Board PINOUT](https://github.com/feiticeir0/Flyingbear_Ghost_v3.1_Marlin_2_Firmware/blob/master/images/mks-gen-l-pinout.jpg)
 
 ** What did they change ? **
 Well, because they wired the Y endstop to the X+ pins (on the board), the Y- endstop pin had to be changed for the correct PIN. 
 Has you can see, Y- should be 14, but is 2 . 
+![Flyingbear Y endstop wired in X+](https://github.com/feiticeir0/Flyingbear_Ghost_v3.1_Marlin_2_Firmware/images/Flyingbear_board.jpg)
 This worked well for Marlin v1 and the Y endstop started working.... But not for Marlin v2 .
 So, I removed the Y endstop wiring from X+ and wired it in Y-, thus, keeping untouched the pins_RAMPS.h file. 
 This worked for Marlin v2. 
