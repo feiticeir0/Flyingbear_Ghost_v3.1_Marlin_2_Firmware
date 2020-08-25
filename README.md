@@ -4,7 +4,7 @@ This is the configuration.h and configuration\_adv.h files for stock FlyingBear 
 
 Flyingbear has been busy with their new printers and forgets about the old ones. This was my attempt to upgrade the printer firmware. 
 
-### why ?
+### Why ?
 Well, I wanted to upgrade the hardware in the printer and because of that, it's necessary to compile a new firmware with the new hardware support. 
 Fortunatly, Flyingbear did sent me a Zip file with the Marlin v1.1.8 (or older) code when they sent me the new upgrades for the Ghost so I could flash the firmware (has well the firmware for the new LCD). 
 This version went well and everything worked. 
